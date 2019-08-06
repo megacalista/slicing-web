@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Image Carousel</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="image-carousel.css" rel="stylesheet">
+    </head>
+    <body>
+            <div class="header">
+                    <div class="container">
+                        <div class="container-item">
+                            <button><img src="img/home.svg" alt="" width="40px" height="40px"></button>
+                            <img src="img/logo.png" width="200px" height="40px">
+                        </div>
+        
+                        <div class="search">
+                            <img src="img/search.svg">
+                            <input type="text" placeholder="Search theaters, movies..">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="navbar">
+                    <div class="container-navbar">
+                        <div class="container-list">
+                            <ul>
+                                <li> <img src="img/nowPlay.png"> 
+                                     <a> Playing</a>
+                                </li>
+                                <li> <img src="img/upcoming.png"> 
+                                    <a> Upcoming</a>
+                               </li>
+                                <li> <img src="img/teater.png">
+                                    <a>Theaters</a>
+                                </li>
+                                <li> <img src="img/promotion.png">
+                                    <a>Promotions</a>
+                                </li>
+                                <li> <img src="img/info.png">
+                                    <a>Info 21</a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+
+                        <div class="line"></div>
+                        
+                        <div class="container-list">
+                                <ul>
+                                    <img src="img/imax.png">
+                                    <img src="img/dolby.png">
+                                    <img src="img/m-tix.png">
+                                    
+                                </ul>
+                        </div>
+                    </div>
+                        </div>
+
+        
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="img/img1.jpg" style="width:100%">
+                    </div>
+      
+                    <div class="mySlides fade">
+                        <img src="img/img2.jpg" style="width:100%">
+                    </div>
+      
+                    <div class="mySlides fade">
+                        <img src="img/img3.jpg" style="width:100%">
+                    </div>
+      
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            <br>
+                <script src="image-carousel.js"></script>
+    </body>
+</html>
